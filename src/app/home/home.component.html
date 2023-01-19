@@ -1,0 +1,31 @@
+<div>
+  <img src="/assets/Logo.png" alt="logo">
+</div>
+
+<div class="formContainer">
+  <form>
+    <label for="label">
+      <span>Label</span>
+      <input type="text" id="label" (keypress)="keyPressAlphaNumeric($event)"
+      placeholder="Enter your label">
+    </label>
+  <br>
+    <button type="button" (click)="onSubmit()">Submit</button>
+ 
+  </form>
+</div>
+<div class="spinner">
+  <ngx-spinner
+  bdColor="none"
+  size="medium"
+  color="#FFB830"
+  [showSpinner]= true
+  [zIndex]= "1000"
+  type="ball-scale-multiple" [fullScreen] = "false">
+  <!-- <p style="font-size: 20px; color: black">Loading...</p> -->
+</ngx-spinner>
+</div>
+
+
+
+  

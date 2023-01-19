@@ -1,0 +1,21 @@
+h4 {
+  text-align: center;
+  padding-top: 15%;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+button {
+  display: block;
+  text-align: center;
+  padding: 12px 18px;
+  width: 250px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: 700;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  background: linear-gradient(258.56deg, #FFB830 -8.37%, #FF8F28 79.14%);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
